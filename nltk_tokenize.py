@@ -2,7 +2,7 @@
 from nltk.tokenize import word_tokenize
 import string
 from nltk.corpus import stopwords
-from nltk.stem.porter import SnowballStemmer
+from nltk.stem.snowball import SnowballStemmer
 
 
 def tokenize_dataset(dataset):
